@@ -240,9 +240,10 @@ export const runDev = (
     child.stopping = true
     child.respawn = true
     if (child.connected === undefined || child.connected === true) {
-      log.debug('Disconnecting from child')
-      child.disconnect()
-      if (!willTerminate) {
+      if (willTerminate) {
+        log.debug('Disconnecting from child')
+        child.disconnect()
+      } else {
         killChild()
       }
     }
