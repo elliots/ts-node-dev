@@ -1,6 +1,6 @@
 {
   "name": "@elliots/ts-node-dev",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Compiles your TS app and restarts when files are modified.",
   "keywords": [
     "restart",
