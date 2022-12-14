@@ -1,5 +1,5 @@
 {
-  "name": "@sunsama/ts-node-dev",
+  "name": "@elliots/ts-node-dev",
   "version": "2.0.1",
   "description": "Compiles your TS app and restarts when files are modified.",
   "keywords": [
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/sunsama/ts-node-dev.git"
+    "url": "http://github.com/elliots/ts-node-dev.git"
   },
   "license": "MIT",
   "bin": {
@@ -50,7 +50,7 @@
     "rimraf": "^2.6.1",
     "source-map-support": "^0.5.12",
     "tree-kill": "^1.2.2",
-    "ts-node": "^10.5.0",
+    "ts-node": "^10.9.1",
     "tsconfig": "^7.0.0"
   },
   "devDependencies": {
