@@ -50,7 +50,7 @@
     "rimraf": "^2.6.1",
     "source-map-support": "^0.5.12",
     "tree-kill": "^1.2.2",
-    "ts-node": "^10.9.1",
+    "ts-node": "TypeStrong/ts-node",
     "tsconfig": "^7.0.0"
   },
   "devDependencies": {
@@ -80,7 +80,7 @@
     "ts-nameof": "^5.0.0",
     "tsconfig-paths": "^3.3.1",
     "ttypescript": "^1.5.10",
-    "typescript": "^3.9.5"
+    "typescript": ">4.5"
   },
   "peerDependencies": {
     "node-notifier": "*",
